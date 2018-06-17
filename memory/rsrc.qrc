@@ -1,0 +1,69 @@
+<RCC>
+    <qresource prefix="/">
+        <file>imgs/colorful-brain.png</file>
+        <file>imgs/colorful-brain+.png</file>
+        <file>imgs/colorful-brain-memory+.png</file>
+    </qresource>
+    <qresource prefix="/cards/front">
+        <file>imgs/bicycle.png</file>
+        <file>imgs/car.png</file>
+        <file>imgs/egg.png</file>
+        <file>imgs/house.png</file>
+        <file>imgs/money.png</file>
+        <file>imgs/oven.png</file>
+        <file>imgs/sarten.png</file>
+        <file>imgs/piggy_bank.png</file>
+        <file>imgs/bank.png</file>
+        <file>imgs/airplane.png</file>
+        <file>imgs/banana.png</file>
+        <file>imgs/coffee_mug.png</file>
+        <file>imgs/flower.png</file>
+        <file>imgs/helicopter.png</file>
+    </qresource>
+    <qresource prefix="/backgrounds">
+        <file>imgs/bg_colorful-brain.png</file>
+        <file>imgs/bg_colorful-brain+.png</file>
+        <file>imgs/bg_puzzle.jpg</file>
+    </qresource>
+    <qresource prefix="/decks">
+        <file>imgs/deck_conventional.png</file>
+        <file>imgs/deck_relational.png</file>
+    </qresource>
+    <qresource prefix="/buttons">
+        <file>imgs/buttons/menu_button.png</file>
+        <file>imgs/buttons/menu_button_active.png</file>
+        <file>imgs/buttons/play_button.png</file>
+        <file>imgs/buttons/play_button_active.png</file>
+        <file>imgs/buttons/quit_button.png</file>
+        <file>imgs/buttons/quit_button_active.png</file>
+        <file>imgs/buttons/restart_button.png</file>
+        <file>imgs/buttons/restart_button_active.png</file>
+        <file>imgs/buttons/relate_button.png</file>
+        <file>imgs/buttons/relate_button_active.png</file>
+        <file>imgs/buttons/easy_button.png</file>
+        <file>imgs/buttons/easy_button_active.png</file>
+        <file>imgs/buttons/hard_button.png</file>
+        <file>imgs/buttons/hard_button_active.png</file>
+        <file>imgs/buttons/medium_button.png</file>
+        <file>imgs/buttons/medium_button_active.png</file>
+    </qresource>
+    <qresource prefix="/cards/dorsal">
+        <file>imgs/secret_card.png</file>
+    </qresource>
+    <qresource prefix="/cards/rel1">
+        <file>imgs/bicycle.png</file>
+        <file>imgs/car.png</file>
+        <file>imgs/airplane.png</file>
+        <file>imgs/helicopter.png</file>
+    </qresource>
+    <qresource prefix="/cards/rel2">
+        <file>imgs/egg.png</file>
+        <file>imgs/oven.png</file>
+        <file>imgs/sarten.png</file>
+    </qresource>
+    <qresource prefix="/cards/rel3">
+        <file>imgs/money.png</file>
+        <file>imgs/piggy_bank.png</file>
+        <file>imgs/bank.png</file>
+    </qresource>
+</RCC>
