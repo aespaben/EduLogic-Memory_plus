@@ -1,0 +1,213 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.6"/>
+<title>Memory+: Fichero Fuente headers/Card.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">Memory+
+   &#160;<span id="projectnumber">0.1</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.8.6 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Buscar');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Página&#160;principal</span></a></li>
+      <li><a href="annotated.html"><span>Clases</span></a></li>
+      <li class="current"><a href="files.html"><span>Archivos</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Buscar" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Lista&#160;de&#160;archivos</span></a></li>
+      <li><a href="globals.html"><span>Miembros&#160;de&#160;los&#160;ficheros</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Todo</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Clases</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Archivos</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Funciones</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_7f57b1e41c5acd0e859ae5f3a2b075a9.html">headers</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">Card.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="Card_8h.html">Ir a la documentación de este archivo.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;</div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#ifndef CARD_H</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define CARD_H</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &lt;QPixmap&gt;</span></div>
+<div class="line"><a name="l00011"></a><span class="lineno">   11</span>&#160;<span class="preprocessor">#include &lt;QGraphicsPixmapItem&gt;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;<span class="preprocessor">#include &lt;QGraphicsSceneMouseEvent&gt;</span></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;</div>
+<div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="classCard.html">   17</a></span>&#160;<span class="keyword">class </span><a class="code" href="classCard.html">Card</a>:<span class="keyword">public</span> QObject, <span class="keyword">public</span> QGraphicsPixmapItem</div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;{</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;    Q_OBJECT</div>
+<div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
+<div class="line"><a name="l00021"></a><span class="lineno">   21</span>&#160;<span class="keyword">private</span>:</div>
+<div class="line"><a name="l00022"></a><span class="lineno">   22</span>&#160;    QPixmap image[2];</div>
+<div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;    QString image_name[2];</div>
+<div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;    <span class="keywordtype">int</span> card_id;</div>
+<div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;    <span class="keywordtype">bool</span> card_up;</div>
+<div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;</div>
+<div class="line"><a name="l00036"></a><span class="lineno"><a class="line" href="classCard.html#a7340a365f3fbe880a434c68d7e665a33">   36</a></span>&#160;    <a class="code" href="classCard.html#a7340a365f3fbe880a434c68d7e665a33">Card</a>(QString dorsal, QString up, <span class="keywordtype">int</span> <span class="keywordtype">id</span> = -1, QGraphicsItem *parent = NULL)</div>
+<div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;        :QGraphicsPixmapItem(parent), card_id(id)</div>
+<div class="line"><a name="l00038"></a><span class="lineno">   38</span>&#160;    {</div>
+<div class="line"><a name="l00039"></a><span class="lineno">   39</span>&#160;        this-&gt;image[0].load(dorsal);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;        this-&gt;image[1].load(up);</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        this-&gt;image_name[0] = dorsal;</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        this-&gt;image_name[1] = up;</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        this-&gt;card_up = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        setPixmap(this-&gt;image[0]);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;    }</div>
+<div class="line"><a name="l00046"></a><span class="lineno">   46</span>&#160;</div>
+<div class="line"><a name="l00053"></a><span class="lineno"><a class="line" href="classCard.html#a5ccb7a98359b49bdaac475e8b2129975">   53</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classCard.html#a5ccb7a98359b49bdaac475e8b2129975">set_card</a>(QString dorsal, QString up, <span class="keywordtype">int</span> <span class="keywordtype">id</span>)</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;    {</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;        this-&gt;image[0].load(dorsal);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;        this-&gt;image[1].load(up);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;        this-&gt;image_name[0] = dorsal;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;        this-&gt;image_name[1] = up;</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;        this-&gt;card_id = id;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;    }</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;</div>
+<div class="line"><a name="l00065"></a><span class="lineno"><a class="line" href="classCard.html#abbd46606b409c7981a9defb38c8a29b8">   65</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classCard.html#abbd46606b409c7981a9defb38c8a29b8">show_card</a>()</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;    {</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;        this-&gt;card_up = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;        this-&gt;setPixmap(this-&gt;image[1]);</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;    }</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;</div>
+<div class="line"><a name="l00074"></a><span class="lineno"><a class="line" href="classCard.html#ac9821ebe4235b9dac41055e58675a4a5">   74</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classCard.html#ac9821ebe4235b9dac41055e58675a4a5">hide_card</a>()</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;    {</div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;        this-&gt;card_up = <span class="keyword">false</span>;</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;        this-&gt;setPixmap(this-&gt;image[0]);</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;    }</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;</div>
+<div class="line"><a name="l00084"></a><span class="lineno"><a class="line" href="classCard.html#a7f255cbb86ac67fde3dfcbd27e1b2b30">   84</a></span>&#160;    QPixmap <a class="code" href="classCard.html#a7f255cbb86ac67fde3dfcbd27e1b2b30">get_dorsal</a>()</div>
+<div class="line"><a name="l00085"></a><span class="lineno">   85</span>&#160;    {</div>
+<div class="line"><a name="l00086"></a><span class="lineno">   86</span>&#160;        <span class="keywordflow">return</span> this-&gt;image[0];</div>
+<div class="line"><a name="l00087"></a><span class="lineno">   87</span>&#160;    }</div>
+<div class="line"><a name="l00088"></a><span class="lineno">   88</span>&#160;</div>
+<div class="line"><a name="l00093"></a><span class="lineno"><a class="line" href="classCard.html#adbf014c1fb61e64aeea10d5ca448a10d">   93</a></span>&#160;    QPixmap <a class="code" href="classCard.html#adbf014c1fb61e64aeea10d5ca448a10d">get_front</a>()</div>
+<div class="line"><a name="l00094"></a><span class="lineno">   94</span>&#160;    {</div>
+<div class="line"><a name="l00095"></a><span class="lineno">   95</span>&#160;        <span class="keywordflow">return</span> this-&gt;image[1];</div>
+<div class="line"><a name="l00096"></a><span class="lineno">   96</span>&#160;    }</div>
+<div class="line"><a name="l00097"></a><span class="lineno">   97</span>&#160;</div>
+<div class="line"><a name="l00102"></a><span class="lineno"><a class="line" href="classCard.html#a56b662276984f1e4493cd3bd708915a9">  102</a></span>&#160;    <span class="keywordtype">int</span> <a class="code" href="classCard.html#a56b662276984f1e4493cd3bd708915a9">get_id</a>()</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;    {</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;        <span class="keywordflow">return</span> this-&gt;card_id;</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;    }</div>
+<div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;</div>
+<div class="line"><a name="l00113"></a><span class="lineno"><a class="line" href="classCard.html#a5e15f19d3da91a951e38319ae0a30999">  113</a></span>&#160;    QString <a class="code" href="classCard.html#a5e15f19d3da91a951e38319ae0a30999">get_name</a>(<span class="keywordtype">size_t</span> index)</div>
+<div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    {</div>
+<div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;        <span class="keywordflow">if</span>(index &lt; 2)</div>
+<div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;            <span class="keywordflow">return</span> this-&gt;image_name[index];</div>
+<div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;        <span class="keywordflow">return</span> QString();</div>
+<div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;    }</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;</div>
+<div class="line"><a name="l00125"></a><span class="lineno"><a class="line" href="classCard.html#a57dcb9478cf6fe08b492cb035a33fd5d">  125</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classCard.html#a57dcb9478cf6fe08b492cb035a33fd5d">set_id</a>(<span class="keywordtype">int</span> <span class="keywordtype">id</span>)</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;    {</div>
+<div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;        this-&gt;card_id = id;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;    }</div>
+<div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;</div>
+<div class="line"><a name="l00135"></a><span class="lineno"><a class="line" href="classCard.html#a9ebc44fd37f1a6633d3b5c26d74aa185">  135</a></span>&#160;    <span class="keywordtype">bool</span> <a class="code" href="classCard.html#a9ebc44fd37f1a6633d3b5c26d74aa185">is_up</a>()</div>
+<div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    {</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;        <span class="keywordflow">return</span> this-&gt;card_up;</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    }</div>
+<div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;</div>
+<div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;    ~<a class="code" href="classCard.html">Card</a>(){}</div>
+<div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;</div>
+<div class="line"><a name="l00142"></a><span class="lineno">  142</span>&#160;</div>
+<div class="line"><a name="l00143"></a><span class="lineno">  143</span>&#160;<span class="keyword">protected</span>:</div>
+<div class="line"><a name="l00144"></a><span class="lineno">  144</span>&#160;</div>
+<div class="line"><a name="l00149"></a><span class="lineno"><a class="line" href="classCard.html#a731947ca9a438d2af418586414b3e2c9">  149</a></span>&#160;    <span class="keywordtype">void</span> <a class="code" href="classCard.html#a731947ca9a438d2af418586414b3e2c9">mousePressEvent</a>(QGraphicsSceneMouseEvent *event)</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;    {</div>
+<div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;        <span class="keywordflow">if</span>(event-&gt;button() == Qt::LeftButton and not this-&gt;<a class="code" href="classCard.html#a9ebc44fd37f1a6633d3b5c26d74aa185">is_up</a>())</div>
+<div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;            this-&gt;<a class="code" href="classCard.html#abbd46606b409c7981a9defb38c8a29b8">show_card</a>();</div>
+<div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;</div>
+<div class="line"><a name="l00154"></a><span class="lineno">  154</span>&#160;        <span class="keywordflow">else</span> <span class="keywordflow">if</span>(event-&gt;button() == Qt::LeftButton and this-&gt;<a class="code" href="classCard.html#a9ebc44fd37f1a6633d3b5c26d74aa185">is_up</a>())</div>
+<div class="line"><a name="l00155"></a><span class="lineno">  155</span>&#160;            this-&gt;<a class="code" href="classCard.html#ac9821ebe4235b9dac41055e58675a4a5">hide_card</a>();</div>
+<div class="line"><a name="l00156"></a><span class="lineno">  156</span>&#160;</div>
+<div class="line"><a name="l00157"></a><span class="lineno">  157</span>&#160;    }</div>
+<div class="line"><a name="l00158"></a><span class="lineno">  158</span>&#160;};</div>
+<div class="line"><a name="l00159"></a><span class="lineno">  159</span>&#160;</div>
+<div class="line"><a name="l00160"></a><span class="lineno">  160</span>&#160;<span class="preprocessor">#endif // CARD_H</span></div>
+<div class="ttc" id="classCard_html_a57dcb9478cf6fe08b492cb035a33fd5d"><div class="ttname"><a href="classCard.html#a57dcb9478cf6fe08b492cb035a33fd5d">Card::set_id</a></div><div class="ttdeci">void set_id(int id)</div><div class="ttdoc">Modifica el id de la carta. </div><div class="ttdef"><b>Definition:</b> <a href="Card_8h_source.html#l00125">Card.h:125</a></div></div>
+<div class="ttc" id="classCard_html_a5e15f19d3da91a951e38319ae0a30999"><div class="ttname"><a href="classCard.html#a5e15f19d3da91a951e38319ae0a30999">Card::get_name</a></div><div class="ttdeci">QString get_name(size_t index)</div><div class="ttdoc">Retorna el path de la imagen de la carta según un índice (0 o 1). </div><div class="ttdef"><b>Definition:</b> <a href="Card_8h_source.html#l00113">Card.h:113</a></div></div>
+<div class="ttc" id="classCard_html_adbf014c1fb61e64aeea10d5ca448a10d"><div class="ttname"><a href="classCard.html#adbf014c1fb61e64aeea10d5ca448a10d">Card::get_front</a></div><div class="ttdeci">QPixmap get_front()</div><div class="ttdoc">Retorna la imagen frontal de la carta. </div><div class="ttdef"><b>Definition:</b> <a href="Card_8h_source.html#l00093">Card.h:93</a></div></div>
+<div class="ttc" id="classCard_html_a7f255cbb86ac67fde3dfcbd27e1b2b30"><div class="ttname"><a href="classCard.html#a7f255cbb86ac67fde3dfcbd27e1b2b30">Card::get_dorsal</a></div><div class="ttdeci">QPixmap get_dorsal()</div><div class="ttdoc">Retorna la imagen dorsal de la carta. </div><div class="ttdef"><b>Definition:</b> <a href="Card_8h_source.html#l00084">Card.h:84</a></div></div>
+<div class="ttc" id="classCard_html_a5ccb7a98359b49bdaac475e8b2129975"><div class="ttname"><a href="classCard.html#a5ccb7a98359b49bdaac475e8b2129975">Card::set_card</a></div><div class="ttdeci">void set_card(QString dorsal, QString up, int id)</div><div class="ttdoc">Modifica las imágenes de la carta. </div><div class="ttdef"><b>Definition:</b> <a href="Card_8h_source.html#l00053">Card.h:53</a></div></div>
+<div class="ttc" id="classCard_html_a9ebc44fd37f1a6633d3b5c26d74aa185"><div class="ttname"><a href="classCard.html#a9ebc44fd37f1a6633d3b5c26d74aa185">Card::is_up</a></div><div class="ttdeci">bool is_up()</div><div class="ttdoc">Comprueba si la carta está hacia arriba (frontal) o hacia abajo (dorsal). </div><div class="ttdef"><b>Definition:</b> <a href="Card_8h_source.html#l00135">Card.h:135</a></div></div>
+<div class="ttc" id="classCard_html_a731947ca9a438d2af418586414b3e2c9"><div class="ttname"><a href="classCard.html#a731947ca9a438d2af418586414b3e2c9">Card::mousePressEvent</a></div><div class="ttdeci">void mousePressEvent(QGraphicsSceneMouseEvent *event)</div><div class="ttdoc">Muestra u oculta la carta cuando recibe un click con el botón izquierdo del ratón. </div><div class="ttdef"><b>Definition:</b> <a href="Card_8h_source.html#l00149">Card.h:149</a></div></div>
+<div class="ttc" id="classCard_html_abbd46606b409c7981a9defb38c8a29b8"><div class="ttname"><a href="classCard.html#abbd46606b409c7981a9defb38c8a29b8">Card::show_card</a></div><div class="ttdeci">void show_card()</div><div class="ttdoc">Coloca al frente la imagen frontal de la carta. </div><div class="ttdef"><b>Definition:</b> <a href="Card_8h_source.html#l00065">Card.h:65</a></div></div>
+<div class="ttc" id="classCard_html"><div class="ttname"><a href="classCard.html">Card</a></div><div class="ttdoc">Clase Card. Hereda de QObject y QGraphicsPixmapItem. </div><div class="ttdef"><b>Definition:</b> <a href="Card_8h_source.html#l00017">Card.h:17</a></div></div>
+<div class="ttc" id="classCard_html_ac9821ebe4235b9dac41055e58675a4a5"><div class="ttname"><a href="classCard.html#ac9821ebe4235b9dac41055e58675a4a5">Card::hide_card</a></div><div class="ttdeci">void hide_card()</div><div class="ttdoc">Coloca al frente la imagen dorsal de la carta. </div><div class="ttdef"><b>Definition:</b> <a href="Card_8h_source.html#l00074">Card.h:74</a></div></div>
+<div class="ttc" id="classCard_html_a56b662276984f1e4493cd3bd708915a9"><div class="ttname"><a href="classCard.html#a56b662276984f1e4493cd3bd708915a9">Card::get_id</a></div><div class="ttdeci">int get_id()</div><div class="ttdoc">Retorna el id de la carta. </div><div class="ttdef"><b>Definition:</b> <a href="Card_8h_source.html#l00102">Card.h:102</a></div></div>
+<div class="ttc" id="classCard_html_a7340a365f3fbe880a434c68d7e665a33"><div class="ttname"><a href="classCard.html#a7340a365f3fbe880a434c68d7e665a33">Card::Card</a></div><div class="ttdeci">Card(QString dorsal, QString up, int id=-1, QGraphicsItem *parent=NULL)</div><div class="ttdoc">Constructor de la clase. </div><div class="ttdef"><b>Definition:</b> <a href="Card_8h_source.html#l00036">Card.h:36</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Generado el Domingo, 17 de Junio de 2018 19:48:17 para Memory+ por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.6
+</small></address>
+</body>
+</html>
