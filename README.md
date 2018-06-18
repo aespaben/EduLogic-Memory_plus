@@ -12,9 +12,9 @@ La aplicación fue programada en C++, utilizando la biblioteca DeSiGNAR (https:/
 # Instrucciones de compilación
 
 ## Requisitos previos
-- Descargar la versión más actual de DeSiGNAR e instalarla (las instrucciones de instalación se encuentran en https://github.com/R3mmurd/DeSiGNAR).
+- Descargar e instalar la versión de DeSiGNAR que se provee con la aplicación (DeSiGNAR.tar). Las instrucciones para su instalación se encuentran en su repositorio oficial https://github.com/R3mmurd/DeSiGNAR
 - Instalar Qt 5.2.1 o una versión más actual (si la hay).
-- Instalar la versión más actual del compilador gcc.
+- Instalar la versión más actual del compilador gcc (se recomienda clang++-3.9).
 - Descargar la carpeta "memory", la cual contiene el proyecto.
 - Abrir el archivo memory+.pro (ubicado dentro de la carpeta "memory") y modificar la línea 18:
   - Debe reemplazar el path con la ubicación del directorio DeSiGNAR.
