@@ -6,12 +6,12 @@ Memory+ es una aplicación que actúa como un launcher de videojuegos orientados
 
 La aplicación fue programada en C++, utilizando la biblioteca DeSiGNAR (https://github.com/R3mmurd/DeSiGNAR) Qt 5.2.1.
 
-# Plataformas
+## Plataformas
 - Linux: Probado en Ubuntu 14.04.5 LTS (Trusty).
 
-# Instrucciones de compilación
+## Instrucciones de compilación
 
-## Requisitos previos
+### Requisitos previos
 - Descargar e instalar la versión de DeSiGNAR que se provee con la aplicación (DeSiGNAR.tar). Las instrucciones para su instalación se encuentran en su repositorio oficial https://github.com/R3mmurd/DeSiGNAR
 - Instalar Qt 5.2.1 o una versión más actual (si la hay).
 - Instalar la versión más actual del compilador gcc (se recomienda clang++-3.9).
@@ -19,14 +19,14 @@ La aplicación fue programada en C++, utilizando la biblioteca DeSiGNAR (https:/
 - Abrir el archivo memory+.pro (ubicado dentro de la carpeta "memory") y modificar la línea 18:
   - Debe reemplazar el path con la ubicación del directorio DeSiGNAR.
 
-## Compilación desde la consola de comandos
+### Compilación desde la consola de comandos
 
 - cd /ruta/al/directorio/memory
 - qmake -makefile
 - qmake
 - make
 
-## Compilación desde Qt Creator
+### Compilación desde Qt Creator
 
 - Abra el archivo memory+.pro desde Qt Creator.
 - En la parte inferior izquierda seleccione el tipo de compilación en "Release".
@@ -34,6 +34,6 @@ La aplicación fue programada en C++, utilizando la biblioteca DeSiGNAR (https:/
 
 Si los pasos fueron ejecutados correctamente, no debería haber problemas de compilación y debería tener a la vista dentro del directorio "memory" el archivo ejecutable de la aplicación.
 
-## Autores
+### Autores
 - Angel España
 - Patricia Daboin
