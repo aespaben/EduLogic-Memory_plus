@@ -18,3 +18,22 @@ La aplicación fue programada en C++, utilizando la biblioteca DeSiGNAR (https:/
 - Descargar la carpeta "memory", la cual contiene el proyecto.
 - Abrir el archivo memory+.pro (ubicado dentro de la carpeta "memory") y modificar la línea 18:
   - Debe reemplazar el path con la ubicación del directorio DeSiGNAR.
+
+## Compilación desde la consola de comandos
+
+- cd /ruta/al/directorio/memory
+- qmake -makefile
+- qmake
+- make
+
+## Compilación desde Qt Creator
+
+- Abra el archivo memory+.pro desde Qt Creator.
+- En la parte inferior izquierda seleccione el tipo de compilación en "Release".
+- Presione la combinación de teclas Ctrl+R para compilar y correr la aplicación, o Ctrl+B solo para compilar.
+
+Si los pasos fueron ejecutados correctamente, no debería haber problemas de compilación y debería tener a la vista dentro del directorio "memory" el archivo ejecutable de la aplicación.
+
+## Autores
+- Angel España
+- Patricia Daboin
