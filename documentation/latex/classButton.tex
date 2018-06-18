@@ -1,0 +1,165 @@
+\hypertarget{classButton}{\section{Referencia de la Clase Button}
+\label{classButton}\index{Button@{Button}}
+}
+
+
+Clase \hyperlink{classButton}{Button}. Hereda de Q\-Object y Q\-Graphics\-Pixmap\-Item.  
+
+
+
+
+{\ttfamily \#include $<$button.\-h$>$}
+
+Diagrama de herencias de Button\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classButton}
+\end{center}
+\end{figure}
+\subsection*{Señales}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{classButton_a9e7ab4152cb1e7e3beb7f2842f32670c}{void {\bfseries clicked} ()}\label{classButton_a9e7ab4152cb1e7e3beb7f2842f32670c}
+
+\end{DoxyCompactItemize}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classButton_aaa64acc02b613f8e480edb5040eb99d2}{Button} (Q\-String img\-\_\-standby, Q\-String img\-\_\-active, Q\-Graphics\-Item $\ast$parent=N\-U\-L\-L)
+\begin{DoxyCompactList}\small\item\em Constructor de la clase \hyperlink{classButton}{Button}. \end{DoxyCompactList}\item 
+void \hyperlink{classButton_a17d8eb0c904605b223bbc00c75655315}{mouse\-Press\-Event} (Q\-Graphics\-Scene\-Mouse\-Event $\ast$event)
+\begin{DoxyCompactList}\small\item\em Emite la señal clicked() siempre que se pulsa el botón izquierdo del ratón sobre una instancia de la clase \hyperlink{classButton}{Button}. \end{DoxyCompactList}\item 
+void \hyperlink{classButton_a633a9684818bc5d300a622a00064f09c}{hover\-Enter\-Event} (Q\-Graphics\-Scene\-Hover\-Event $\ast$event)
+\begin{DoxyCompactList}\small\item\em Cambia la imagen del botón a su forma activa siempre que el cursor pasa por encima de una instancia de la clase \hyperlink{classButton}{Button}. \end{DoxyCompactList}\item 
+void \hyperlink{classButton_a1689a97690d9469ce8350d24db0d7485}{hover\-Leave\-Event} (Q\-Graphics\-Scene\-Hover\-Event $\ast$event)
+\begin{DoxyCompactList}\small\item\em Cambia la imagen del botón a su forma inactiva siempre que el cursor pasa por encima de una instancia de la clase \hyperlink{classButton}{Button}. \end{DoxyCompactList}\item 
+void \hyperlink{classButton_a4706976fe64d05194702baa179fa99da}{set\-Images} (Q\-String img\-\_\-standby, Q\-String img\-\_\-active)
+\begin{DoxyCompactList}\small\item\em Carga las imágenes del botón. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+Clase \hyperlink{classButton}{Button}. Hereda de Q\-Object y Q\-Graphics\-Pixmap\-Item. 
+
+Definición en la línea 18 del archivo button.\-h.
+
+
+
+\subsection{Documentación del constructor y destructor}
+\hypertarget{classButton_aaa64acc02b613f8e480edb5040eb99d2}{\index{Button@{Button}!Button@{Button}}
+\index{Button@{Button}!Button@{Button}}
+\subsubsection[{Button}]{\setlength{\rightskip}{0pt plus 5cm}Button\-::\-Button (
+\begin{DoxyParamCaption}
+\item[{Q\-String}]{img\-\_\-standby, }
+\item[{Q\-String}]{img\-\_\-active, }
+\item[{Q\-Graphics\-Item $\ast$}]{parent = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)}}\label{classButton_aaa64acc02b613f8e480edb5040eb99d2}
+
+
+Constructor de la clase \hyperlink{classButton}{Button}. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em img\-\_\-standby} & Path de la imagen del botón en reposo. \\
+\hline
+{\em img\-\_\-active} & Path de la imagen del botón activo (hover). \\
+\hline
+{\em parent} & Puntero a Q\-Graphics\-Item a partir del cual fue creado el botón (por defecto es N\-U\-L\-L). \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 9 del archivo button.\-cpp.
+
+
+
+\subsection{Documentación de las funciones miembro}
+\hypertarget{classButton_a633a9684818bc5d300a622a00064f09c}{\index{Button@{Button}!hover\-Enter\-Event@{hover\-Enter\-Event}}
+\index{hover\-Enter\-Event@{hover\-Enter\-Event}!Button@{Button}}
+\subsubsection[{hover\-Enter\-Event}]{\setlength{\rightskip}{0pt plus 5cm}void Button\-::hover\-Enter\-Event (
+\begin{DoxyParamCaption}
+\item[{Q\-Graphics\-Scene\-Hover\-Event $\ast$}]{event}
+\end{DoxyParamCaption}
+)}}\label{classButton_a633a9684818bc5d300a622a00064f09c}
+
+
+Cambia la imagen del botón a su forma activa siempre que el cursor pasa por encima de una instancia de la clase \hyperlink{classButton}{Button}. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em event} & Puntero al evento generado por pasar el cursor del ratón sobre una instancia de this. \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 23 del archivo button.\-cpp.
+
+\hypertarget{classButton_a1689a97690d9469ce8350d24db0d7485}{\index{Button@{Button}!hover\-Leave\-Event@{hover\-Leave\-Event}}
+\index{hover\-Leave\-Event@{hover\-Leave\-Event}!Button@{Button}}
+\subsubsection[{hover\-Leave\-Event}]{\setlength{\rightskip}{0pt plus 5cm}void Button\-::hover\-Leave\-Event (
+\begin{DoxyParamCaption}
+\item[{Q\-Graphics\-Scene\-Hover\-Event $\ast$}]{event}
+\end{DoxyParamCaption}
+)}}\label{classButton_a1689a97690d9469ce8350d24db0d7485}
+
+
+Cambia la imagen del botón a su forma inactiva siempre que el cursor pasa por encima de una instancia de la clase \hyperlink{classButton}{Button}. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em event} & Puntero al evento generado por pasar el cursor del ratón sobre una instancia de this. \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 28 del archivo button.\-cpp.
+
+\hypertarget{classButton_a17d8eb0c904605b223bbc00c75655315}{\index{Button@{Button}!mouse\-Press\-Event@{mouse\-Press\-Event}}
+\index{mouse\-Press\-Event@{mouse\-Press\-Event}!Button@{Button}}
+\subsubsection[{mouse\-Press\-Event}]{\setlength{\rightskip}{0pt plus 5cm}void Button\-::mouse\-Press\-Event (
+\begin{DoxyParamCaption}
+\item[{Q\-Graphics\-Scene\-Mouse\-Event $\ast$}]{event}
+\end{DoxyParamCaption}
+)}}\label{classButton_a17d8eb0c904605b223bbc00c75655315}
+
+
+Emite la señal clicked() siempre que se pulsa el botón izquierdo del ratón sobre una instancia de la clase \hyperlink{classButton}{Button}. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em event} & Puntero al evento generado por pulsar un botón del ratón. \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 17 del archivo button.\-cpp.
+
+\hypertarget{classButton_a4706976fe64d05194702baa179fa99da}{\index{Button@{Button}!set\-Images@{set\-Images}}
+\index{set\-Images@{set\-Images}!Button@{Button}}
+\subsubsection[{set\-Images}]{\setlength{\rightskip}{0pt plus 5cm}void Button\-::set\-Images (
+\begin{DoxyParamCaption}
+\item[{Q\-String}]{img\-\_\-standby, }
+\item[{Q\-String}]{img\-\_\-active}
+\end{DoxyParamCaption}
+)}}\label{classButton_a4706976fe64d05194702baa179fa99da}
+
+
+Carga las imágenes del botón. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em img\-\_\-standby} & Path de la imagen del botón en reposo. \\
+\hline
+{\em img\-\_\-active} & Path de la imagen del botón activo (hover). \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 33 del archivo button.\-cpp.
+
+
+
+La documentación para esta clase fue generada a partir de los siguientes ficheros\-:\begin{DoxyCompactItemize}
+\item 
+headers/\hyperlink{button_8h}{button.\-h}\item 
+source/\hyperlink{button_8cpp}{button.\-cpp}\end{DoxyCompactItemize}

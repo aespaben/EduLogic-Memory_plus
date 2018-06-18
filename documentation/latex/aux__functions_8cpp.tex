@@ -1,0 +1,178 @@
+\hypertarget{aux__functions_8cpp}{\section{Referencia del Archivo source/aux\-\_\-functions.cpp}
+\label{aux__functions_8cpp}\index{source/aux\-\_\-functions.\-cpp@{source/aux\-\_\-functions.\-cpp}}
+}
+{\ttfamily \#include $<$headers/aux\-\_\-functions.\-h$>$}\\*
+\subsection*{Funciones}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{aux__functions_8cpp_a87d8be954310ef0279c1aa2a08e59888}{random\-\_\-pos\-\_\-numbers\-\_\-array} (int a\mbox{[}$\,$\mbox{]}, size\-\_\-t a\-\_\-size)
+\begin{DoxyCompactList}\small\item\em Recibe un arreglo de números enteros (vacío) y le añade números enteros aleatorios sin repetir entre 0 y a\-\_\-size. \end{DoxyCompactList}\item 
+{\footnotesize template$<$typename T $>$ }\\void \hyperlink{aux__functions_8cpp_ab8c70cca28e16967e860b44baf2bec7f}{random\-\_\-array} (T a\mbox{[}$\,$\mbox{]}, size\-\_\-t a\-\_\-size)
+\begin{DoxyCompactList}\small\item\em Aleatoriza las posiciones de los elementos de un arreglo cualquiera. \end{DoxyCompactList}\item 
+void \hyperlink{aux__functions_8cpp_a31456360c93cd842ad2ac01863440993}{random\-\_\-array} (S\-L\-List$<$ Q\-String $>$ $\ast$a, size\-\_\-t a\-\_\-size)
+\begin{DoxyCompactList}\small\item\em Aleatoriza las posiciones de los elementos de una lista simplemente enlazada. \end{DoxyCompactList}\item 
+void \hyperlink{aux__functions_8cpp_ab4f3011775fa80aacdffbe381419ced9}{random\-\_\-array} (\hyperlink{classCard}{Card} $\ast$c\mbox{[}$\,$\mbox{]}, size\-\_\-t c\-\_\-size)
+\begin{DoxyCompactList}\small\item\em Aleatoriza las posiciones de los elementos de un arreglo de tipo Card$\ast$. \end{DoxyCompactList}\item 
+void \hyperlink{aux__functions_8cpp_a6225eb37d6182d1b698033a0a31bd865}{load\-\_\-random\-\_\-pixmaps\-\_\-from\-\_\-dir} (Q\-Pixmap p\mbox{[}$\,$\mbox{]}, size\-\_\-t p\-\_\-size, Q\-String qs\-\_\-dir)
+\begin{DoxyCompactList}\small\item\em Carga imágenes aleatorias a un arreglo de tipo Q\-Pixmap de acuerdo a una ubicación específica. \end{DoxyCompactList}\item 
+void \hyperlink{aux__functions_8cpp_aa3b13667f4c928508a1ec52495c6e9e0}{load\-\_\-random\-\_\-pixmaps\-\_\-from\-\_\-dir} (S\-L\-List$<$ Q\-String $>$ $\ast$sll\-\_\-files, size\-\_\-t l\-\_\-size, Q\-String qs\-\_\-dir)
+\begin{DoxyCompactList}\small\item\em Carga path's de imágenes aleatorias a una lista simplemente enlazada de tipo Q\-Pixmap de acuerdo a una ubicación específica. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+\begin{DoxyAuthor}{Autor}
+Angel España -\/ Git\-Hub aespaben 
+
+Patricia Daboin -\/ Git\-Hub apdaboin 
+\end{DoxyAuthor}
+
+
+Definición en el archivo \hyperlink{aux__functions_8cpp_source}{aux\-\_\-functions.\-cpp}.
+
+
+
+\subsection{Documentación de las funciones}
+\hypertarget{aux__functions_8cpp_a6225eb37d6182d1b698033a0a31bd865}{\index{aux\-\_\-functions.\-cpp@{aux\-\_\-functions.\-cpp}!load\-\_\-random\-\_\-pixmaps\-\_\-from\-\_\-dir@{load\-\_\-random\-\_\-pixmaps\-\_\-from\-\_\-dir}}
+\index{load\-\_\-random\-\_\-pixmaps\-\_\-from\-\_\-dir@{load\-\_\-random\-\_\-pixmaps\-\_\-from\-\_\-dir}!aux_functions.cpp@{aux\-\_\-functions.\-cpp}}
+\subsubsection[{load\-\_\-random\-\_\-pixmaps\-\_\-from\-\_\-dir}]{\setlength{\rightskip}{0pt plus 5cm}void load\-\_\-random\-\_\-pixmaps\-\_\-from\-\_\-dir (
+\begin{DoxyParamCaption}
+\item[{Q\-Pixmap}]{p\mbox{[}$\,$\mbox{]}, }
+\item[{size\-\_\-t}]{p\-\_\-size, }
+\item[{Q\-String}]{qs\-\_\-dir}
+\end{DoxyParamCaption}
+)}}\label{aux__functions_8cpp_a6225eb37d6182d1b698033a0a31bd865}
+
+
+Carga imágenes aleatorias a un arreglo de tipo Q\-Pixmap de acuerdo a una ubicación específica. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em p} & Arreglo de imágenes (vacío). \\
+\hline
+{\em p\-\_\-size} & Tamaño del arreglo. \\
+\hline
+{\em qs\-\_\-dir} & Path del directorio donde se ubican las imágenes. \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 128 del archivo aux\-\_\-functions.\-cpp.
+
+\hypertarget{aux__functions_8cpp_aa3b13667f4c928508a1ec52495c6e9e0}{\index{aux\-\_\-functions.\-cpp@{aux\-\_\-functions.\-cpp}!load\-\_\-random\-\_\-pixmaps\-\_\-from\-\_\-dir@{load\-\_\-random\-\_\-pixmaps\-\_\-from\-\_\-dir}}
+\index{load\-\_\-random\-\_\-pixmaps\-\_\-from\-\_\-dir@{load\-\_\-random\-\_\-pixmaps\-\_\-from\-\_\-dir}!aux_functions.cpp@{aux\-\_\-functions.\-cpp}}
+\subsubsection[{load\-\_\-random\-\_\-pixmaps\-\_\-from\-\_\-dir}]{\setlength{\rightskip}{0pt plus 5cm}void load\-\_\-random\-\_\-pixmaps\-\_\-from\-\_\-dir (
+\begin{DoxyParamCaption}
+\item[{S\-L\-List$<$ Q\-String $>$ $\ast$}]{sll\-\_\-files, }
+\item[{size\-\_\-t}]{p\-\_\-size, }
+\item[{Q\-String}]{qs\-\_\-dir}
+\end{DoxyParamCaption}
+)}}\label{aux__functions_8cpp_aa3b13667f4c928508a1ec52495c6e9e0}
+
+
+Carga path's de imágenes aleatorias a una lista simplemente enlazada de tipo Q\-Pixmap de acuerdo a una ubicación específica. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em sll\-\_\-files} & Lista simplemente enlazada (puede estar vacía o no). \\
+\hline
+{\em p\-\_\-size} & Cantidad de imágenes a cargar. \\
+\hline
+{\em qs\-\_\-dir} & Path del directorio donde se ubican las imágenes. \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 143 del archivo aux\-\_\-functions.\-cpp.
+
+\hypertarget{aux__functions_8cpp_ab8c70cca28e16967e860b44baf2bec7f}{\index{aux\-\_\-functions.\-cpp@{aux\-\_\-functions.\-cpp}!random\-\_\-array@{random\-\_\-array}}
+\index{random\-\_\-array@{random\-\_\-array}!aux_functions.cpp@{aux\-\_\-functions.\-cpp}}
+\subsubsection[{random\-\_\-array}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T $>$ void random\-\_\-array (
+\begin{DoxyParamCaption}
+\item[{T}]{a\mbox{[}$\,$\mbox{]}, }
+\item[{size\-\_\-t}]{a\-\_\-size}
+\end{DoxyParamCaption}
+)}}\label{aux__functions_8cpp_ab8c70cca28e16967e860b44baf2bec7f}
+
+
+Aleatoriza las posiciones de los elementos de un arreglo cualquiera. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em a} & Arreglo de cualquier tipo. \\
+\hline
+{\em a\-\_\-size} & Tamaño del arreglo a\mbox{[}\mbox{]}. \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 33 del archivo aux\-\_\-functions.\-cpp.
+
+\hypertarget{aux__functions_8cpp_a31456360c93cd842ad2ac01863440993}{\index{aux\-\_\-functions.\-cpp@{aux\-\_\-functions.\-cpp}!random\-\_\-array@{random\-\_\-array}}
+\index{random\-\_\-array@{random\-\_\-array}!aux_functions.cpp@{aux\-\_\-functions.\-cpp}}
+\subsubsection[{random\-\_\-array}]{\setlength{\rightskip}{0pt plus 5cm}void random\-\_\-array (
+\begin{DoxyParamCaption}
+\item[{S\-L\-List$<$ Q\-String $>$ $\ast$}]{a, }
+\item[{size\-\_\-t}]{a\-\_\-size}
+\end{DoxyParamCaption}
+)}}\label{aux__functions_8cpp_a31456360c93cd842ad2ac01863440993}
+
+
+Aleatoriza las posiciones de los elementos de una lista simplemente enlazada. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em a} & Lista simplemente enlazada. \\
+\hline
+{\em a\-\_\-size} & Tamaño de la lista a. \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 65 del archivo aux\-\_\-functions.\-cpp.
+
+\hypertarget{aux__functions_8cpp_ab4f3011775fa80aacdffbe381419ced9}{\index{aux\-\_\-functions.\-cpp@{aux\-\_\-functions.\-cpp}!random\-\_\-array@{random\-\_\-array}}
+\index{random\-\_\-array@{random\-\_\-array}!aux_functions.cpp@{aux\-\_\-functions.\-cpp}}
+\subsubsection[{random\-\_\-array}]{\setlength{\rightskip}{0pt plus 5cm}void random\-\_\-array (
+\begin{DoxyParamCaption}
+\item[{{\bf Card} $\ast$}]{c\mbox{[}$\,$\mbox{]}, }
+\item[{size\-\_\-t}]{c\-\_\-size}
+\end{DoxyParamCaption}
+)}}\label{aux__functions_8cpp_ab4f3011775fa80aacdffbe381419ced9}
+
+
+Aleatoriza las posiciones de los elementos de un arreglo de tipo Card$\ast$. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em c} & Arreglo de tipo Card$\ast$. \\
+\hline
+{\em c\-\_\-size} & Tamaño del arreglo c. \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 96 del archivo aux\-\_\-functions.\-cpp.
+
+\hypertarget{aux__functions_8cpp_a87d8be954310ef0279c1aa2a08e59888}{\index{aux\-\_\-functions.\-cpp@{aux\-\_\-functions.\-cpp}!random\-\_\-pos\-\_\-numbers\-\_\-array@{random\-\_\-pos\-\_\-numbers\-\_\-array}}
+\index{random\-\_\-pos\-\_\-numbers\-\_\-array@{random\-\_\-pos\-\_\-numbers\-\_\-array}!aux_functions.cpp@{aux\-\_\-functions.\-cpp}}
+\subsubsection[{random\-\_\-pos\-\_\-numbers\-\_\-array}]{\setlength{\rightskip}{0pt plus 5cm}void random\-\_\-pos\-\_\-numbers\-\_\-array (
+\begin{DoxyParamCaption}
+\item[{int}]{a\mbox{[}$\,$\mbox{]}, }
+\item[{size\-\_\-t}]{a\-\_\-size}
+\end{DoxyParamCaption}
+)}}\label{aux__functions_8cpp_a87d8be954310ef0279c1aa2a08e59888}
+
+
+Recibe un arreglo de números enteros (vacío) y le añade números enteros aleatorios sin repetir entre 0 y a\-\_\-size. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em a} & Arreglo de números enteros \\
+\hline
+{\em a\-\_\-size} & Tamaño del arreglo a\mbox{[}\mbox{]}. \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 8 del archivo aux\-\_\-functions.\-cpp.
+

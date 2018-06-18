@@ -1,0 +1,260 @@
+\hypertarget{classCard}{\section{Referencia de la Clase Card}
+\label{classCard}\index{Card@{Card}}
+}
+
+
+Clase \hyperlink{classCard}{Card}. Hereda de Q\-Object y Q\-Graphics\-Pixmap\-Item.  
+
+
+
+
+{\ttfamily \#include $<$Card.\-h$>$}
+
+Diagrama de herencias de Card\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classCard}
+\end{center}
+\end{figure}
+\subsection*{Métodos públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classCard_a7340a365f3fbe880a434c68d7e665a33}{Card} (Q\-String dorsal, Q\-String up, int id=-\/1, Q\-Graphics\-Item $\ast$parent=N\-U\-L\-L)
+\begin{DoxyCompactList}\small\item\em Constructor de la clase. \end{DoxyCompactList}\item 
+void \hyperlink{classCard_a5ccb7a98359b49bdaac475e8b2129975}{set\-\_\-card} (Q\-String dorsal, Q\-String up, int id)
+\begin{DoxyCompactList}\small\item\em Modifica las imágenes de la carta. \end{DoxyCompactList}\item 
+\hypertarget{classCard_abbd46606b409c7981a9defb38c8a29b8}{void \hyperlink{classCard_abbd46606b409c7981a9defb38c8a29b8}{show\-\_\-card} ()}\label{classCard_abbd46606b409c7981a9defb38c8a29b8}
+
+\begin{DoxyCompactList}\small\item\em Coloca al frente la imagen frontal de la carta. \end{DoxyCompactList}\item 
+\hypertarget{classCard_ac9821ebe4235b9dac41055e58675a4a5}{void \hyperlink{classCard_ac9821ebe4235b9dac41055e58675a4a5}{hide\-\_\-card} ()}\label{classCard_ac9821ebe4235b9dac41055e58675a4a5}
+
+\begin{DoxyCompactList}\small\item\em Coloca al frente la imagen dorsal de la carta. \end{DoxyCompactList}\item 
+Q\-Pixmap \hyperlink{classCard_a7f255cbb86ac67fde3dfcbd27e1b2b30}{get\-\_\-dorsal} ()
+\begin{DoxyCompactList}\small\item\em Retorna la imagen dorsal de la carta. \end{DoxyCompactList}\item 
+Q\-Pixmap \hyperlink{classCard_adbf014c1fb61e64aeea10d5ca448a10d}{get\-\_\-front} ()
+\begin{DoxyCompactList}\small\item\em Retorna la imagen frontal de la carta. \end{DoxyCompactList}\item 
+int \hyperlink{classCard_a56b662276984f1e4493cd3bd708915a9}{get\-\_\-id} ()
+\begin{DoxyCompactList}\small\item\em Retorna el id de la carta. \end{DoxyCompactList}\item 
+Q\-String \hyperlink{classCard_a5e15f19d3da91a951e38319ae0a30999}{get\-\_\-name} (size\-\_\-t index)
+\begin{DoxyCompactList}\small\item\em Retorna el path de la imagen de la carta según un índice (0 o 1). \end{DoxyCompactList}\item 
+void \hyperlink{classCard_a57dcb9478cf6fe08b492cb035a33fd5d}{set\-\_\-id} (int id)
+\begin{DoxyCompactList}\small\item\em Modifica el id de la carta. \end{DoxyCompactList}\item 
+bool \hyperlink{classCard_a9ebc44fd37f1a6633d3b5c26d74aa185}{is\-\_\-up} ()
+\begin{DoxyCompactList}\small\item\em Comprueba si la carta está hacia arriba (frontal) o hacia abajo (dorsal). \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Métodos protegidos}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classCard_a731947ca9a438d2af418586414b3e2c9}{mouse\-Press\-Event} (Q\-Graphics\-Scene\-Mouse\-Event $\ast$event)
+\begin{DoxyCompactList}\small\item\em Muestra u oculta la carta cuando recibe un click con el botón izquierdo del ratón. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Descripción detallada}
+Clase \hyperlink{classCard}{Card}. Hereda de Q\-Object y Q\-Graphics\-Pixmap\-Item. 
+
+Definición en la línea 17 del archivo Card.\-h.
+
+
+
+\subsection{Documentación del constructor y destructor}
+\hypertarget{classCard_a7340a365f3fbe880a434c68d7e665a33}{\index{Card@{Card}!Card@{Card}}
+\index{Card@{Card}!Card@{Card}}
+\subsubsection[{Card}]{\setlength{\rightskip}{0pt plus 5cm}Card\-::\-Card (
+\begin{DoxyParamCaption}
+\item[{Q\-String}]{dorsal, }
+\item[{Q\-String}]{up, }
+\item[{int}]{id = {\ttfamily -\/1}, }
+\item[{Q\-Graphics\-Item $\ast$}]{parent = {\ttfamily NULL}}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classCard_a7340a365f3fbe880a434c68d7e665a33}
+
+
+Constructor de la clase. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em dorsal} & Cadena de texto con el path de la imagen dorsal de la carta. \\
+\hline
+{\em up} & Cadena de texto con el path de la imagen frontal de la carta. \\
+\hline
+{\em id} & Número que identifica la carta. \\
+\hline
+{\em parent} & \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 36 del archivo Card.\-h.
+
+
+
+\subsection{Documentación de las funciones miembro}
+\hypertarget{classCard_a7f255cbb86ac67fde3dfcbd27e1b2b30}{\index{Card@{Card}!get\-\_\-dorsal@{get\-\_\-dorsal}}
+\index{get\-\_\-dorsal@{get\-\_\-dorsal}!Card@{Card}}
+\subsubsection[{get\-\_\-dorsal}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Pixmap Card\-::get\-\_\-dorsal (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classCard_a7f255cbb86ac67fde3dfcbd27e1b2b30}
+
+
+Retorna la imagen dorsal de la carta. 
+
+\begin{DoxyReturn}{Devuelve}
+Imagen dorsal de la carta. 
+\end{DoxyReturn}
+
+
+Definición en la línea 84 del archivo Card.\-h.
+
+\hypertarget{classCard_adbf014c1fb61e64aeea10d5ca448a10d}{\index{Card@{Card}!get\-\_\-front@{get\-\_\-front}}
+\index{get\-\_\-front@{get\-\_\-front}!Card@{Card}}
+\subsubsection[{get\-\_\-front}]{\setlength{\rightskip}{0pt plus 5cm}Q\-Pixmap Card\-::get\-\_\-front (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classCard_adbf014c1fb61e64aeea10d5ca448a10d}
+
+
+Retorna la imagen frontal de la carta. 
+
+\begin{DoxyReturn}{Devuelve}
+Imagen frontal de la carta. 
+\end{DoxyReturn}
+
+
+Definición en la línea 93 del archivo Card.\-h.
+
+\hypertarget{classCard_a56b662276984f1e4493cd3bd708915a9}{\index{Card@{Card}!get\-\_\-id@{get\-\_\-id}}
+\index{get\-\_\-id@{get\-\_\-id}!Card@{Card}}
+\subsubsection[{get\-\_\-id}]{\setlength{\rightskip}{0pt plus 5cm}int Card\-::get\-\_\-id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classCard_a56b662276984f1e4493cd3bd708915a9}
+
+
+Retorna el id de la carta. 
+
+\begin{DoxyReturn}{Devuelve}
+id de la carta. 
+\end{DoxyReturn}
+
+
+Definición en la línea 102 del archivo Card.\-h.
+
+\hypertarget{classCard_a5e15f19d3da91a951e38319ae0a30999}{\index{Card@{Card}!get\-\_\-name@{get\-\_\-name}}
+\index{get\-\_\-name@{get\-\_\-name}!Card@{Card}}
+\subsubsection[{get\-\_\-name}]{\setlength{\rightskip}{0pt plus 5cm}Q\-String Card\-::get\-\_\-name (
+\begin{DoxyParamCaption}
+\item[{size\-\_\-t}]{index}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classCard_a5e15f19d3da91a951e38319ae0a30999}
+
+
+Retorna el path de la imagen de la carta según un índice (0 o 1). 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em index} & Índice del arreglo que contiene los path's de las imágenes. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Devuelve}
+Path de la imagen si el índice es 0 o 1. 
+
+Cadena vacia si el índice es diferente de 0 y 1. 
+\end{DoxyReturn}
+
+
+Definición en la línea 113 del archivo Card.\-h.
+
+\hypertarget{classCard_a9ebc44fd37f1a6633d3b5c26d74aa185}{\index{Card@{Card}!is\-\_\-up@{is\-\_\-up}}
+\index{is\-\_\-up@{is\-\_\-up}!Card@{Card}}
+\subsubsection[{is\-\_\-up}]{\setlength{\rightskip}{0pt plus 5cm}bool Card\-::is\-\_\-up (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classCard_a9ebc44fd37f1a6633d3b5c26d74aa185}
+
+
+Comprueba si la carta está hacia arriba (frontal) o hacia abajo (dorsal). 
+
+\begin{DoxyReturn}{Devuelve}
+true si la carta está hacia arriba. 
+
+false si la carta está hacia abajo. 
+\end{DoxyReturn}
+
+
+Definición en la línea 135 del archivo Card.\-h.
+
+\hypertarget{classCard_a731947ca9a438d2af418586414b3e2c9}{\index{Card@{Card}!mouse\-Press\-Event@{mouse\-Press\-Event}}
+\index{mouse\-Press\-Event@{mouse\-Press\-Event}!Card@{Card}}
+\subsubsection[{mouse\-Press\-Event}]{\setlength{\rightskip}{0pt plus 5cm}void Card\-::mouse\-Press\-Event (
+\begin{DoxyParamCaption}
+\item[{Q\-Graphics\-Scene\-Mouse\-Event $\ast$}]{event}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}}\label{classCard_a731947ca9a438d2af418586414b3e2c9}
+
+
+Muestra u oculta la carta cuando recibe un click con el botón izquierdo del ratón. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em event} & Evento que se genera al hacer click con el ratón sobre la carta. \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 149 del archivo Card.\-h.
+
+\hypertarget{classCard_a5ccb7a98359b49bdaac475e8b2129975}{\index{Card@{Card}!set\-\_\-card@{set\-\_\-card}}
+\index{set\-\_\-card@{set\-\_\-card}!Card@{Card}}
+\subsubsection[{set\-\_\-card}]{\setlength{\rightskip}{0pt plus 5cm}void Card\-::set\-\_\-card (
+\begin{DoxyParamCaption}
+\item[{Q\-String}]{dorsal, }
+\item[{Q\-String}]{up, }
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classCard_a5ccb7a98359b49bdaac475e8b2129975}
+
+
+Modifica las imágenes de la carta. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em dorsal} & Cadena de texto con el path de la imagen dorsal de la carta. \\
+\hline
+{\em up} & Cadena de texto con el path de la imagen frontal de la carta. \\
+\hline
+{\em id} & Número que identifica la carta. \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 53 del archivo Card.\-h.
+
+\hypertarget{classCard_a57dcb9478cf6fe08b492cb035a33fd5d}{\index{Card@{Card}!set\-\_\-id@{set\-\_\-id}}
+\index{set\-\_\-id@{set\-\_\-id}!Card@{Card}}
+\subsubsection[{set\-\_\-id}]{\setlength{\rightskip}{0pt plus 5cm}void Card\-::set\-\_\-id (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classCard_a57dcb9478cf6fe08b492cb035a33fd5d}
+
+
+Modifica el id de la carta. 
+
+
+\begin{DoxyParams}{Parámetros}
+{\em id} & Número que identifica a la carta. \\
+\hline
+\end{DoxyParams}
+
+
+Definición en la línea 125 del archivo Card.\-h.
+
+
+
+La documentación para esta clase fue generada a partir del siguiente fichero\-:\begin{DoxyCompactItemize}
+\item 
+headers/\hyperlink{Card_8h}{Card.\-h}\end{DoxyCompactItemize}
