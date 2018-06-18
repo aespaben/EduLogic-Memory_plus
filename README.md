@@ -18,4 +18,3 @@ La aplicación fue programada en C++, utilizando la biblioteca DeSiGNAR (https:/
 - Descargar la carpeta "memory", la cual contiene el proyecto.
 - Abrir el archivo memory+.pro (ubicado dentro de la carpeta "memory") y modificar la línea 18:
   - Debe reemplazar el path con la ubicación del directorio DeSiGNAR.
- 
