@@ -1,5 +1,5 @@
 # Memory+
-Memory+ es una aplicación para que actúa como un launcher de videojuegos orientados a mejorar la memoria y las capacidades mentales. Inicialmente cuenta con dos videojuegos del tipo "juego de memoria":
+Memory+ es una aplicación que actúa como un launcher de videojuegos orientados a mejorar la memoria y las capacidades mentales. Inicialmente cuenta con dos videojuegos del tipo "juego de memoria":
 
 - Memoria convencional: El jugador debe ir seleccionando pares de tarjetas sin verlas. Cuando encuentra todas las parejas del juego, gana.
 - Memoria relacional: El jugador debe seleccionar dos o más cartas que en un principio son diferentes, pero guardan relación entre sí. Si el usuario logra seleccionar todas las cartas que están relacionadas, gana, pero si solo quedan cartas que no están relacionadas, pierde.
