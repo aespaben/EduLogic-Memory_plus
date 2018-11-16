@@ -1,4 +1,4 @@
-# Memory+
+# Memory+ ![Logo](https://github.com/aespaben/EduLogic-Memory_plus/blob/master/colorful-brain-icon.png)
 Memory+ es una aplicación que actúa como un launcher de videojuegos orientados a mejorar la memoria y las capacidades mentales. Inicialmente cuenta con dos videojuegos del tipo "juego de memoria":
 
 - Memoria convencional: El jugador debe ir seleccionando pares de tarjetas sin verlas. Cuando encuentra todas las parejas del juego, gana.
