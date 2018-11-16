@@ -4,7 +4,7 @@ Memory+ es una aplicación que actúa como un launcher de videojuegos orientados
 - Memoria convencional: El jugador debe ir seleccionando pares de tarjetas sin verlas. Cuando encuentra todas las parejas del juego, gana.
 - Memoria relacional: El jugador debe seleccionar dos o más cartas que en un principio son diferentes, pero guardan relación entre sí. Si el usuario logra seleccionar todas las cartas que están relacionadas, gana, pero si solo quedan cartas que no están relacionadas, pierde.
 
-La aplicación fue programada en C++, utilizando la biblioteca DeSiGNAR (https://github.com/R3mmurd/DeSiGNAR) Qt 5.2.1.
+La aplicación fue programada en C++, utilizando la biblioteca DeSiGNAR (https://github.com/R3mmurd/DeSiGNAR) y Qt 5.2.1.
 
 ## Plataformas
 - Linux: Probado en Ubuntu 14.04.5 LTS (Trusty).
